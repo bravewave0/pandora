@@ -163,8 +163,7 @@ var astroNum = parseInt(dob.slice(5,7) + dob.slice(8,10));
 var futureDob = $("#futureYear").val()
 var futureDobYear = parseInt(futureDob.substr(0, 4));
 var futureAstroNum = parseInt(futureDob.slice(5,7) + futureDob.slice(8,10));
-  console.log(futureDobYear - dobYear );
-  console.log(futureAstroNum - astroNum );
+
 
   
    if  (futureDobYear - dobYear < 0 ) {$('#astro').text("");$('.astroimg').hide();}
